@@ -1,0 +1,16 @@
+.trending-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .trending-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Space between items */
+    padding: 20px;
+    width: 100%;
+    overflow-x: auto; /* Enables horizontal scrolling if needed */
+  }
+  

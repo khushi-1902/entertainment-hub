@@ -1,0 +1,54 @@
+.single-content {
+    width: 220px; /* Slightly wider for better visibility */
+    background-color: #1c1c1c;
+    border-radius: 12px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    flex: 0 0 auto;
+  }
+  
+  .single-content:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.2);
+  }
+  
+  .single-content img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .single-content:hover img {
+    transform: scale(1.1);
+  }
+  
+  .title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  
+  .info {
+    font-size: 14px;
+    color: #b8b8b8;
+    margin-top: 4px;
+  }
+  
+  .rating {
+    background-color: #ffcc00;
+    color: #1c1c1c;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 6px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+  }
+  

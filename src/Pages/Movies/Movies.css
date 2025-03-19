@@ -1,0 +1,20 @@
+.trending {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center; /* Center align items */
+    gap: 16px; /* Add spacing between cards */
+    padding: 20px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap;
+  }
+  .trending-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  .trending {
+    display: flex;
+    gap: 10px;
+  }
+  

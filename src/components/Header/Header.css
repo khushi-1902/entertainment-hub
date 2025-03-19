@@ -1,0 +1,29 @@
+.header {
+    width: 100%;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: #39445a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 5vw;
+    padding: 15px 0; /* Adjusted padding */
+    box-shadow: 0px 1px 5px black;
+    color: white;
+    z-index: 100;
+}
+
+@media (max-width: 1000px) {
+    .header {
+      font-size: 6.4vw;
+    }
+}
+
+/* Ensure no unwanted margin on body */
+body, html {
+    margin: 0;
+    padding: 0;
+}
